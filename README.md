@@ -3,14 +3,15 @@ Consistent Sparse Deep Learning:  Theory and Computation
 We propose a frequentist-like method for learning sparse DNNs and justify its consistency under the Bayesian framework. The  structure  of  the sparse  DNN  can  be  consistently  determined  using  a  Laplace  approximation-based  marginal posterior  inclusion  probability  approach on a trained Bayesian neural network with mixture of normal prior. 
 ### Related Publication
 
-Yan Sun <sup> * </sup>, Qifan Song <sup> * </sup>, Faming Liang, [Consistent Sparse Deep Learning: Theory and Computation.](https://arxiv.org/pdf/2102.13229.pdf), JASA, in press.
-### Simulation:
+Yan Sun <sup> * </sup>, Qifan Song <sup> * </sup> and Faming Liang, [Consistent Sparse Deep Learning: Theory and Computation.](https://arxiv.org/pdf/2102.13229.pdf) *JASA, in press*.
+
+### Reproduce Experimental Results in the Paper:
+#### Simulation:
 
 Generate Data:
 ```{python}
 python Generate_Data.py
 ```
-##### On the First Dataset 
 Regression:
 ```{python}
 python Simulation_Regression.py --data_index 1 --activation 'tanh'
@@ -51,7 +52,7 @@ python Spinn_structure.py --data_index 1
 ```
 
 
-### Real Data:
+#### Real Data:
 CIFAR ResNet Compression
 ```{python}
 python cifar_run.py --model_path 'resnet_32_10percent/' --sigma0 0.00002 --lambdan 0.00001 -depth 32 --seed 1
