@@ -8,48 +8,48 @@ Requirements for Pytorch see [Pytorch](http://pytorch.org/) installation instruc
 ### Simulation:
 
 Generate Data:
-    ```
-    python Generate_Data.py
-    ```
+```{python}
+python Generate_Data.py
+```
 ##### On the First Dataset 
 Regression:
-    ```
-    python Simulation_Regression.py --data_index 1 --activation 'tanh'
-    python Simulation_Regression.py --data_index 1 --activation 'relu'
-    ```
+```{python}
+python Simulation_Regression.py --data_index 1 --activation 'tanh'
+python Simulation_Regression.py --data_index 1 --activation 'relu'
+```
 Regression Baseline:
-    ```
-    python Dropout_Regression.py --data_index 1 --activation 'tanh'
-    python Dropout_Regression.py --data_index 1 --activation 'relu'
-    python Spinn_Regression.py --data_index 1 --activation 'tanh'
-    python Spinn_Regression.py --data_index 1 --activation 'relu'
-    python DPF_Regression.py --data_index 1 --activation 'tanh'
-    python DPF_Regression.py --data_index 1 --activation 'relu'
-    ```
+```{python}
+python Dropout_Regression.py --data_index 1 --activation 'tanh'
+python Dropout_Regression.py --data_index 1 --activation 'relu'
+python Spinn_Regression.py --data_index 1 --activation 'tanh'
+python Spinn_Regression.py --data_index 1 --activation 'relu'
+python DPF_Regression.py --data_index 1 --activation 'tanh'
+python DPF_Regression.py --data_index 1 --activation 'relu'
+```
 
 Classification
-    ```
-    python Simulation_Classification.py --data_index 1 --activation 'tanh'
-    python Simulation_Classification.py --data_index 1 --activation 'relu'
-    ```
+```{python}
+python Simulation_Classification.py --data_index 1 --activation 'tanh'
+python Simulation_Classification.py --data_index 1 --activation 'relu'
+```
 Classification Baseline:
-    ```
-    python Dropout_Classification.py --data_index 1 --activation 'tanh'
-    python Dropout_Classification.py --data_index 1 --activation 'relu'
-    python Spinn_Classification.py --data_index 1 --activation 'tanh'
-    python Spinn_Classification.py --data_index 1 --activation 'relu'
-    python DPF_Classification.py --data_index 1 --activation 'tanh'
-    python DPF_Classification.py --data_index 1 --activation 'relu'
-    ```
+```{python}
+python Dropout_Classification.py --data_index 1 --activation 'tanh'
+python Dropout_Classification.py --data_index 1 --activation 'relu'
+python Spinn_Classification.py --data_index 1 --activation 'tanh'
+python Spinn_Classification.py --data_index 1 --activation 'relu'
+python DPF_Classification.py --data_index 1 --activation 'tanh'
+python DPF_Classification.py --data_index 1 --activation 'relu'
+```
 
 Structure Selection
-    ```
-    python Simulation_Structure.py --data_index 1
-    ```
+```{python}
+python Simulation_Structure.py --data_index 1
+```
 Structure Selection Baseline:
-    ```
-    python Spinn_structure.py --data_index 1
-    ```
+```{python}
+python Spinn_structure.py --data_index 1
+```
 
 
 ### Real Data:
