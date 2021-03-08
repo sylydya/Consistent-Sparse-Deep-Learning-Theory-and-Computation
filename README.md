@@ -5,13 +5,14 @@ We propose a frequentist-like method for learning sparse DNNs and justify its co
 
 Yan Sun <sup> * </sup>, Qifan Song <sup> * </sup> and Faming Liang, [Consistent Sparse Deep Learning: Theory and Computation.](https://arxiv.org/pdf/2102.13229.pdf) *JASA, in press*.
 
-## How to run:
+### How to run:
 Modify the process_data.py to produce training data and testing data, run run_bnn.py with --data_name ... to specify the data. The default setting runs the Nonlinear Regression experiments in the paper.
 ```{python}
 python bnn.py 
-```{python}
+```
 
 ### Reproduce Experimental Results in the Paper:
+The code to reproduce the experiments result in the paper are in the "experiments" folder. Use the following command to reproduce the results.
 #### Simulation:
 
 Generate Data:
