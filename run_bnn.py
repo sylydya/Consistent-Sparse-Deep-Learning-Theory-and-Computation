@@ -14,7 +14,6 @@ parser = argparse.ArgumentParser(description='BNN with mixture normal prior')
 # Basic Setting
 parser.add_argument('--seed', default=1, type = int, help = 'set seed')
 parser.add_argument('--data_name', default = 'Simulation', type = str, help = 'data name')
-parser.add_argument('--data_base_path', default='./data/', type = str, help = 'base path for saving result')
 parser.add_argument('--base_path', default='./result/', type = str, help = 'base path for saving result')
 parser.add_argument('--model_path', default='test_run/', type = str, help = 'folder name for saving model')
 parser.add_argument('--fine_tune_path', default='fine_tune/', type = str, help = 'folder name for saving fine tune model')
