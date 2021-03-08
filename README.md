@@ -12,7 +12,7 @@ python bnn.py
 ```
 
 ### Reproduce Experimental Results in the Paper:
-The code to reproduce the experiments result in the paper are in the "experiments" folder. Use the following command to reproduce the results.
+The code to reproduce the results of the experiments in the paper are in the "experiments" folder. Use the following command to reproduce the results.
 #### Simulation:
 
 Generate Data:
