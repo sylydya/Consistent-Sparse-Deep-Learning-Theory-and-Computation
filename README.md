@@ -8,7 +8,7 @@ Yan Sun <sup> * </sup>, Qifan Song <sup> * </sup> and Faming Liang, [Consistent 
 ### How to run:
 Modify the process_data.py to produce training data and testing data, run run_bnn.py with --data_name ... to specify the data. The default setting runs the Nonlinear Regression experiments in the paper.
 ```{python}
-python bnn.py 
+python run_bnn.py 
 ```
 
 ### Reproduce Experimental Results in the Paper:
